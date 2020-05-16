@@ -1,0 +1,37 @@
+----------
+----------
+NULL
+----------
+array(15) {
+  ["custom_fields"]=>
+  string(2) "{}"
+  ["unit_price"]=>
+  string(4) "0.00"
+  ["amount"]=>
+  string(4) "0.00"
+  ["currency"]=>
+  string(4) "Free"
+  ["quantity"]=>
+  string(1) "1"
+  ["variants"]=>
+  string(2) "[]"
+  ["mac"]=>
+  string(40) "2e496731f62537f31675cdccad4e9e179f4773b5"
+  ["payment_id"]=>
+  string(20) "MOJO6206000F78330828"
+  ["buyer"]=>
+  string(20) "astritmanu@gmail.com"
+  ["offer_slug"]=>
+  string(10) "test-a87e3"
+  ["fees"]=>
+  string(4) "0.00"
+  ["status"]=>
+  string(6) "Credit"
+  ["buyer_phone"]=>
+  string(10) "7506134775"
+  ["offer_title"]=>
+  string(4) "test"
+  ["buyer_name"]=>
+  string(6) "astrit"
+}
+----------

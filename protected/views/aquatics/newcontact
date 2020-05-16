@@ -1,0 +1,36 @@
+<?php
+	$secretaries = $this->secretaries;
+	$captains = $this->captains;
+	$coaches = $this->coaches;
+	$sport="Aquatics";
+	$sport2="aquatics";
+
+	$this->pageTitle="People - ". ucfirst($sport)." - ". Yii::app()->name;
+
+
+	foreach ($secretaries as $key => $value) {
+		if ($value['post'] == ucwords($sport)) {
+			$secy = $value;
+			break;
+		}
+	}
+	foreach ($captains as $key => $value) {
+		if ($value['sport'] == ucwords($sport)) {
+			$captain[] = $value;
+		}
+	}
+	foreach ($coaches as $key => $value) {
+		if ($value['sport'] == ucwords($sport)) {
+			$coach = $value;
+		}
+	}
+?>
+
+<body>
+          <div class="fh5co-hero" style = "background-image: url(images/gallery/aquatics/2.JPG)">
+            <div class="fh5co-overlay"></div>
+            <div class="fh5co-cover text-center" data-stellar-background-ratio="0.5">
+           <div class="desc animate-box" style="top:40%">
+					<h2 style="font-size:25px">AQUATICS</h2><br>
+					 <div class = "container"  style = "word-wrap: break-word;overflow:hidden">
+           
